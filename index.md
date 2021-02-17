@@ -4,7 +4,7 @@
 
 layout: home
 ---
-<img src="assets/images/homepage.jpeg" alt="Picture of Marvin Stecker" align="left" width="60%" min-width="500px" style="padding: 0% 4% 2% 0%; min-width: 400px"/>  
+<img src="assets/images/homepage.jpeg" alt="Picture of Marvin Stecker" align="left" width="60%" min-width="500px" style="padding: 0% 4% 2% 0%; min-width: "/>  
 Hi! I am Marvin Stecker.   
 I am currently completing my Master's in Communication Science at the WWU University in Münster.  
 <div style="padding-top: 1%"></div>

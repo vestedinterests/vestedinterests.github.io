@@ -1,0 +1,104 @@
+
+<!-- >
+<div class="acc-kontainer">          
+     <div>
+       <input type="radio" name="acc" id="acc1" checked>
+       <label for="acc1">Education</label>
+       <div class="acc-body">
+          <p>2018 - 2021 Westfälische Wilhelms-Universität Münster  
+          <b>Master of Arts: Communication Science</b>  
+          <i>including one year abroad in Salzburg, Austria</i>
+          2014 - 2018 Westfälische Wilhelms-Universität Münster  
+          <b>Bachelor of Arts (1,4): Communication Science und Sociology</b>
+          2014:
+          Pestalozzi Gymnasium Unna. High School Diploma. </p>
+       </div>
+      </div>
+     <div>
+        <input type="radio" name="acc" id="acc2">
+        <label for="acc2">Work Experience</label>
+        <div class="acc-body">
+          All the thing about Technology! Informatic technology especially.
+        </div>
+      </div>
+     <div>
+        <input type="radio" name="acc" id="acc3">
+        <label for="acc3">Skillset</label>
+        <div class="acc-body">
+          i love music <i class="fa fa-headphones"></i>, watching movie <i class="fa fa-film"></i>, Designing maybe <i class="fa fa-code"></i>
+        </div>
+       </div>
+  </div>
+
+
+
+<h4>Education</h4>
+
+<div class="grid-container">
+    <div class="year_1">2018 - 2021</div>
+    <div class="normal_item">Westfälische Wilhelms-Universität Münster</div>
+    <div class="normal_item"><b>Master of Arts: Communication Science</b></div>
+    <div class="last_item"><i>including one year abroad in Salzburg, Austria</i></div>
+    <div class="year_2">2014 - 2018</div>
+    <div class="normal_item">Westfälische Wilhelms-Universität Münster</div>
+    <div class="normal_item">Bachelor of Arts: Communication Science und Sociology</div>
+    <div class="normal_item"></div>
+    <div class="normal_item"></div>
+</div>
+-->
+
+<!--
+<i>02.2019 - current</i>  
+Graduate Student Asissant at ERCIS Institute
+
+<i>04.2018 - 06.2018</i>  
+Internship with the rheingold Institut Köln
+
+<i>08.2016 - 03.2018</i>   
+Student Assistant in the „PropStop“ research project at the WWU Münster
+
+<i>04.2016 - 09.2016</i>  
+Teaching Assisant for an introductory lecture in Communication Science
+
+<h4>Skillset</h4>
+
+<table style="width:100%">
+<tr>
+    <td>2018-2021</td>
+    <td>Master of Arts: Communication Science  
+: Westfälische Wilhelms-Universität Münster  
+including one year abroad in Salzburg, Austria</td>
+</tr>
+</table>
+
+<i>02.2019 - current</i>  
+Graduate Student Asissant at ERCIS Institute
+* coding of qualitative interviews
+* literature research
+
+<i>04.2018 - 06.2018</i>  
+Internship with the rheingold Institut Köln
+* Social Media Analysis
+* moderated online communities
+* qualitative interviews
+* preparation of presentations for clients
+
+<i>08.2016 - 03.2018</i>   
+Student Assistant in the „PropStop“ research project
+* writing of blog posts
+* recruiting interview participants
+* writing a python script to save user comments
+* literature research
+• Schreiben von Artikeln für die Internetpräsenz
+• Terminorganisation und Gewinnung von Interviewpartnern
+• Programmierung eines Python-Skriptes zum Speichern von
+Nutzerkommentaren auf Zeitungs-Homepages
+• Literaturrecherche und Aufbereitung neuer Themenfelder
+
+<i>04.2016 - 09.2016</i>  
+Teaching Assisant for an introductory lecture in Comm Sci
+* led my own 90-min tutorial
+* (independent) grading of student's papers
+* help in grading the final exam
+* admin work
+-->

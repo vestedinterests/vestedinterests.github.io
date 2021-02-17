@@ -3,9 +3,6 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: Home
-redirect_from:
-  - /defaultsite
 ---
 <img src="assets/images/homepage.jpeg" alt="Picture of Marvin Stecker" align="left" width="60%" min-width="500px" style="padding: 0% 4% 2% 0%; min-width: 400px"/>  
 Hi! I am Marvin Stecker.   

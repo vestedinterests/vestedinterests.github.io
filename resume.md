@@ -124,8 +124,9 @@ permalink: /resume/
         <td>
             longtime user of Windows and macOS<br>
             good proficiency in Microsoft Office<br>
-            basic knowledge of SPSS<br>
+            good knowledge of SPSS<br>
             very comfortable with R<br>
+            working knowledge of MAXQDA<br>
             working knowledge of object-oriented programming and not-scared of Python or terminals<br>
         </td>
     </tr> 

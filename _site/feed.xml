@@ -1,1 +1,89 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-02-23T13:39:57+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Marvin Stecker</title><subtitle>Homepage of Marvin Stecker, a nearly-graduate Communication Science student.  Hire me!</subtitle></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-03-02T15:19:47+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Marvin Stecker</title><subtitle>Homepage of Marvin Stecker, a nearly-graduate Communication Science student.  Hire me!</subtitle><entry><title type="html">Annotating Texts in R using a dictionary</title><link href="http://localhost:4000/2021/03/01/Dictionaries-R.html" rel="alternate" type="text/html" title="Annotating Texts in R using a dictionary" /><published>2021-03-01T11:00:00+01:00</published><updated>2021-03-01T11:00:00+01:00</updated><id>http://localhost:4000/2021/03/01/Dictionaries-R</id><content type="html" xml:base="http://localhost:4000/2021/03/01/Dictionaries-R.html">&lt;p&gt;&lt;i&gt;I wrote a small, efficient tool to annotate text data using any available dictionary. Here is how to use it and what I did.&lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;Do you have a (small, large, middlish) amount of text you want to analyse?&lt;br /&gt;
+Do you have a fitting dictionary that contains words and their ratings along dimensions (populism, sadness, confidence)? &lt;br /&gt;
+Are you running the code on your slightly aging personal laptop? Let’s talk!&lt;/p&gt;
+
+&lt;p&gt;You can find detailed description and how to use it on the accompanying GitHub repository.&lt;/p&gt;
+
+&lt;p&gt;One common approach in automatically annotating text data for social science research lies in dictionary-based approaches. With this, you could research for example not only whether your texts contain a positive or negative sentiment, but you can include more nuanced emotional dimensions such as joy, anger and sadness, or use dimensions such as arousal or abstractness. The technical infrastructure however is vague and field- and languange-independent, so you could also annotate political speeches in Mandarin or Spanish patents.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Still Haven’t Found What I Was Looking For&lt;/b&gt;&lt;br /&gt;
+As I described above, for a project my team and me were looking to annotate a large (500k) selection of texts with emotional dimensions. A lot of available packages and ressources only focus on sentiments, either positive or negative and cannot be expanded to analyse multiple dimensions. There is the fantastic &lt;a href=&quot;https://cran.r-project.org/web/packages/syuzhet/index.html&quot;&gt;syuzhet&lt;/a&gt; package that allows a lot of functionality, including a wrapper for the Stanford NLP library and even to incorporate custom dictionaries. &lt;br /&gt;
+However, we found it not the most efficient approach for us.  The focus for efficiency stems from the fact that our data analysis was going to be done on… pre-2015 laptops, not dedicated servers or anything fancy like that. 
+So even with good dictionaries available as a datasource, my team was lacking a really good R implementation to use them efficiently.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Stuck In a (Function) You Can’t Get Out of&lt;/b&gt;&lt;br /&gt;
+Basically, there were two improvements that I made:
+The first problem was that the dictionary was stored in a long format, e.g.&lt;/p&gt;
+&lt;table style=&quot;width:40%; border: 1px dotted&quot;&gt;
+    &lt;tr&gt;
+        &lt;th&gt;word&lt;/th&gt;
+        &lt;th&gt;emotion&lt;/th&gt;
+        &lt;th&gt;value&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&quot;lovely&quot;&lt;/td&gt;
+        &lt;td&gt;joy&lt;/td&gt;
+        &lt;td&gt;2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&quot;lovely&quot;&lt;/td&gt;
+        &lt;td&gt;sadness&lt;/td&gt;
+        &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&quot;lovely&quot;&lt;/td&gt;
+        &lt;td&gt;anger&lt;/td&gt;
+        &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&quot;nervously&quot;&lt;/td&gt;
+        &lt;td&gt;joy&lt;/td&gt;
+        &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&quot;nervously&quot;&lt;/td&gt;
+        &lt;td&gt;sadness&lt;/td&gt;
+        &lt;td&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&quot;nervously&quot;&lt;/td&gt;
+        &lt;td&gt;anger&lt;/td&gt;
+        &lt;td&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;That means each word is not only looked up once, but multiple times, increasing the workload with each emotional dimension to be analysed. If you change this to a wide format, the workload to look up all emotional dimensions for “lovely” suddenly is only a third of what it was.&lt;/p&gt;
+&lt;table style=&quot; width:40%; border: 1px dotted&quot;&gt;
+    &lt;tr&gt;
+        &lt;th&gt;word&lt;/th&gt;
+        &lt;th&gt;joy&lt;/th&gt;
+        &lt;th&gt;sadness&lt;/th&gt;
+        &lt;th&gt;anger&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&quot;lovely&quot;&lt;/td&gt;
+        &lt;td&gt;2&lt;/td&gt;
+        &lt;td&gt;0&lt;/td&gt;
+        &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&quot;nervously&quot;&lt;/td&gt;
+        &lt;td&gt;0&lt;/td&gt;
+        &lt;td&gt;1&lt;/td&gt;
+        &lt;td&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;However, even if you change that, the data.frame package in R is much slower with larger datasets than other implementations (&lt;a href=&quot;https://h2oai.github.io/db-benchmark/&quot;&gt;current benchmark&lt;/a&gt;).
+I chose &lt;a href=&quot;https://cran.r-project.org/web/packages/data.table/&quot;&gt;data.table&lt;/a&gt; as it works very similar to data.frame (albeit a slightly different logic for the syntax) and allows to set ‘keys’ which can be looked up very quickly. If the dictionary is formatted in a long format, all the word entries are now unique so they can be set as a key and then quickly subset the dictionary.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Vertigo&lt;/b&gt;&lt;br /&gt;
+As an example for the speed difference, I tokenised Jane Austen’s Sense and Sensibility (get it &lt;a href=&quot;https://cran.r-project.org/web/packages/janeaustenr/index.html&quot;&gt;here&lt;/a&gt; for R) and annotated the first 2000 words with the &lt;a href=&quot;https://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm&quot;&gt;NRC dictionary&lt;/a&gt; which contains 14.000 entries along 10 emotional dimensions. Using &lt;a href=&quot;https://cran.r-project.org/web/packages/microbenchmark/index.html&quot;&gt;microbenchmark&lt;/a&gt;, the following results  speak to a mountain of difference.&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Unit: seconds
+           expr       min        lq     mean    median        uq       max neval
+ dataframe_long 50.425125 51.960385 54.55410 53.636913 56.927525 60.289947    10
+ dataframe_wide 20.310046 21.140393 22.43178 21.976440 24.368711 25.861014    10
+      datatable  3.083465  3.277078  3.56284  3.511735  3.768349  4.081043    10
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;The wide format already cuts the processing time in half, but data.table still only takes a fifth of that time. Overall, the more efficient approach takes only 5% as using data.frame in a long format.
+For the entirety of Sense and Sensibility (120,000 words), this would mean around an hour of processing time, while data.table allows you to do this in roughly 4 minutes.&lt;/p&gt;</content><author><name></name></author><summary type="html">I wrote a small, efficient tool to annotate text data using any available dictionary. Here is how to use it and what I did.</summary></entry></feed>

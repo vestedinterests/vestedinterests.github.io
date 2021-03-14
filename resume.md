@@ -18,6 +18,11 @@ permalink: /resume/
         Erasmus-exchange: Communication Science</td>
     </tr>
     <tr>
+        <td class="year"><i>August 2019</i></td>  
+        <td>CuriousU Summer School, University of Twente<br>
+        Track: Health and Happiness</td>
+    </tr>
+    <tr>
         <td class="year"><i>2014 - 2018</i></td>
         <td>
             Westfälische Wilhelms-Universität Münster<br>
@@ -58,9 +63,10 @@ permalink: /resume/
         <td>
             <b>Student Assistant in the <a href="http://www.propstop.de/">„PropStop“</a> research project</b>
             <ul>
+            <li>programming Python scripts and data processing</li>
+            <li>coding for content analyses</li>
+            <li>recruiting of interview participants</li>
             <li>writing of blog posts</li>
-            <li>recruiting interview participants</li>
-            <li>programming of a python script to save user comments</li>
             <li>literature research</li>
             </ul>
         </td>
@@ -89,13 +95,6 @@ permalink: /resume/
         I developed a framework of criteria to assess the validity of Big Data Research which I subsequently applied to current studies in the Journal of Communication.<br>
         Grade: 1.0 (A)
         </td>
-    </tr>
-    <tr>
-       <!--  <td class="year"><i>Programming</i> </td>
-        <td>
-        <i>Social Media Hypes on Twitter</i><br>
-            We analysed half a million tweets relating to the public debate after the release of the "Zerstörung der CDU" video by the German youtuber Rezo. Using R, we automatically encoded the entire corpus with topical scores to include news values and emotional attributes in three dimensions. Using time series analysis, we aim to look at inderdepen
-        </td> -->
     </tr>
     <tr>
         <td class="year"><i>Various</i></td>
@@ -132,11 +131,21 @@ permalink: /resume/
     </tr> 
     <tr>
         <td class="year"><i>Methods</i> </td>
-        <td>
-            Design of quantitative and qualitative studies<br>
-            Setup, execution and analysis of qualitative interviews<br>
-            Data wrangling, Sentiment analysis, topic modelling <br>
-            Application of uni- and multivariate statistical analysis<br>
+        <td><i>Data acquisition:</i>
+            <ul>
+            <li>Conception of quantitative and qualitative studies </li>
+            <li>qualitative interviews, grounded theory approaches</li>
+            <li>Web scraping</li>
+            </ul>
+            <i>Analysis</i>
+            <ul>
+            <li>NLP: sentiment analysis and topic modelling</li>
+            <li>uni- and multivariate statistical analysis</li>
+            </ul>
+            <i>Simulation</i>
+            <ul>
+            <li>Agent-Based Modelling in NetLogo</li>
+            </ul>
         </td>
     </tr>                    
 </table>

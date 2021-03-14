@@ -10,6 +10,6 @@ I am currently completing my Master's in Communication Science at the WWU Univer
 <div style="padding-top: 1%"></div>
 I am interested in social inequalities, questions of knowledge and aspects of Critical Theory.  I am comfortable both with quantitative and qualitative research projects, but my pet project are computational approaches.
 <div style="padding-top: 5%"></div>
-<a href="about">About</a> tells you more about, surprisingly, me. 
+<a href="about">About</a> tells you more about, surprisingly, me.   
 <a href="comp">Comp. Tools</a> is a (very brief so far) overview of tools I developed for my analysis purposes.   
 <a href="resume">Resume</a> <del>contains my secret pizza recipe</del> is for the headhunters.   

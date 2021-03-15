@@ -12,4 +12,4 @@ I am interested in social inequalities, questions of knowledge and aspects of Cr
 <div style="padding-top: 5%"></div>
 <a href="about">About</a> tells you more about, surprisingly, me.   
 <a href="comp">Comp. Tools</a> is a (very brief so far) overview of tools I developed for my analysis purposes.   
-<a href="resume">Resume</a> <del>contains my secret pizza recipe</del> is for the headhunters.   
+<a href="resume">Resume</a> <del>contains my secret pizza recipe</del> is for the headhunters.

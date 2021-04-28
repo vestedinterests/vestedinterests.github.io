@@ -139,7 +139,7 @@ permalink: /resume/
             </ul>
             <i>Analysis</i>
             <ul>
-            <li>NLP: sentiment analysis and topic modelling</li>
+            <li>text mining: sentiment analysis and topic modelling</li>
             <li>uni- and multivariate statistical analysis</li>
             </ul>
             <i>Simulation</i>

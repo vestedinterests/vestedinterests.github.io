@@ -8,7 +8,7 @@ layout: home
 Hi! I am Marvin Stecker.   
 I am currently completing my Master's in Communication Science at the WWU University in Münster.  
 <div style="padding-top: 1%"></div>
-I am interested in social inequalities, questions of knowledge and aspects of Critical Theory.  I am comfortable both with quantitative and qualitative research projects, but my pet project are computational approaches.
+I am interested in digital media, social inequalities, mental health and questions of epistemology. I am comfortable both with quantitative and qualitative research projects, but my pet project are computational approaches.
 <div style="padding-top: 5%"></div>
 <a href="about">About</a> tells you more about, surprisingly, me.   
 <!--<a href="comp">Comp. Tools</a> is a (very brief so far) overview of tools I developed for my analysis purposes.  -->

@@ -8,27 +8,27 @@ permalink: /resume/
 
 <table id="resume">
     <tr>
-        <td class="year"><i>2018 - Summer 2021</i></td>  
+        <td class="year"><i>10.2018 - Summer 2021</i></td>  
         <td>Westfälische Wilhelms-Universität Münster<br>
         <b>Master of Arts: Communication Science</b></td>
     </tr>
     <tr>
-        <td class="year"><i>2020 - 2021</i></td>  
+        <td class="year"><i>03.2020 - 03.2021</i></td>  
         <td>Paris-Lodron Universittät Salzburg<br>
         Erasmus-exchange: Communication Science</td>
     </tr>
     <tr>
-        <td class="year"><i>August 2019</i></td>  
+        <td class="year"><i>08.2019</i></td>  
         <td>CuriousU Summer School, University of Twente<br>
         Track: Health and Happiness</td>
     </tr>
     <tr>
-        <td class="year"><i>2014 - 2018</i></td>
+        <td class="year"><i>10.2014 - 09.2018</i></td>
         <td>
             Westfälische Wilhelms-Universität Münster<br>
             <b>Bachelor of Arts (1,4): Communication Science und Sociology</b><br>
-            Thesis: "Challenges to the validity of Big-Data-research: development and application of criteria"<br>
-            <i>including one semester of Computer Science</i>
+            <i>including one semester of Computer Science</i> <br>
+            Thesis (1,0): "Challenges to the validity of Big-Data-research: development and application of criteria"<br>
         </td>
     </tr>       
 </table>
@@ -89,6 +89,13 @@ permalink: /resume/
 
 <table id="resume">
     <tr>
+        <td class="year"><i>Master Thesis</i></td>   
+        <td>
+        <i>"What a turtle knows: An Agent-Based Model of the Knowledge Gap Hypothesis"</i><br>
+        I am developing the first ABM to test theoretical assumptions and logics of the knowledge gap hypthesis, using NetLogo. The project will follow Open Science principles and will be open-sourced after my thesis is completed.<br>
+        </td>
+    </tr>
+    <tr>
         <td class="year"><i>Bachelor Thesis</i></td>   
         <td>
         <i>"Links, likes and lurkers: challenges to the validity of Big-Data-Research"</i><br>
@@ -99,7 +106,7 @@ permalink: /resume/
     <tr>
         <td class="year"><i>Various</i></td>
         <td>
-            Various short papers on sexism in political campagins, ecological Marxism, activism and it's publics and epistemic racism. Analysis of opera, Reddit, jazz, Twitter and Sci-Fi.
+            Various term papers and student research projects on sexism in political campagins, ecological Marxism, activism and it's publics and epistemic racism. Analysis of opera, Reddit, jazz, Twitter and Sci-Fi.
         </td>
     </tr>                   
 </table>
@@ -111,11 +118,6 @@ permalink: /resume/
         <td class="year"><i>Languages</i></td>   
         <td>
             English: C2 (Cambridge Certificate)<br>
-            intro courses to: 
-            <ul>
-            <li>Spanish</li>
-            <li>French</li>
-            <li>Portugese</li></ul>Latinum<br>
         </td>
     </tr>
     <tr>
@@ -126,6 +128,7 @@ permalink: /resume/
             good knowledge of SPSS<br>
             very comfortable with R<br>
             working knowledge of MAXQDA<br>
+            basic experience of LATEX<br>
             working knowledge of object-oriented programming and not-scared of Python or terminals<br>
         </td>
     </tr> 
@@ -134,13 +137,16 @@ permalink: /resume/
         <td><i>Data acquisition:</i>
             <ul>
             <li>Conception of quantitative and qualitative studies </li>
-            <li>qualitative interviews, grounded theory approaches</li>
-            <li>Web scraping</li>
+            <li>qualitative interviews</li>
+            <li>Web scraping and APIs</li>
             </ul>
             <i>Analysis</i>
             <ul>
-            <li>text mining: sentiment analysis and topic modelling</li>
             <li>uni- and multivariate statistical analysis</li>
+            <li>content analysis: manual and automated</li>
+            <li>text mining, e.g. sentiment analysis and topic modelling</li>
+            <li>Grounded Theory approaches</li>
+            <li>interested in humanities approaches</li>
             </ul>
             <i>Simulation</i>
             <ul>

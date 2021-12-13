@@ -8,7 +8,7 @@ permalink: /resume/
 
 <table id="resume">
     <tr>
-        <td class="year"><i>10.2018 - Autumn 2021</i></td>  
+        <td class="year"><i>10.2018 - Winter 2021</i></td>  
         <td>Westfälische Wilhelms-Universität Münster<br>
         <b>Master of Arts: Communication Science</b></td>
     </tr>

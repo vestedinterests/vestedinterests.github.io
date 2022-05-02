@@ -4,13 +4,59 @@ title: Resume
 permalink: /resume/
 ---
 
+<h4>Employment</h4>
+
+<table id="resume">
+    <tr>
+        <!--<td class="year"><i>04.2022 - current</i></td>   -->
+        <td colspan="2" style="text-align: center;">
+            <i>since 04.2022</i>
+        </td>
+    </tr>
+    <tr> 
+        <td colspan="2" class="top_of_the_table"> 
+            <b>Pre-Doc Researcher</b> at the <a href="https://compcommlab.univie.ac.at/">Computational Communication Science Lab</a>, University of Vienna<b> 
+            & Project Manager</b> for the <a href="https://opted.eu/">OPTED</a> project
+        </td>
+    </tr>
+    <tr>
+        <td class="year"><i>02.2019 - 09.2021</i></td>   
+        <td><b>Graduate Student Asissant at <a href="https://www.ercis.org/">ERCIS Institute</a></b><br/>
+        <i  class="job_description">literature research, analysis of qualitative interviews</i>
+        </td>
+    </tr>
+    <tr>
+        <td class="year"><i>08.2016 - 03.2018</i> </td>
+        <td>
+            <b>Student Assistant in the <a href="http://www.propstop.de/">„PropStop“</a> research project</b><br/>
+           <i  class="job_description">programming of a Python webscraper, content analysis, blog posts, recruiting interview participants</i>
+        </td>
+    </tr> 
+    <tr>
+        <td class="year"><i>04.2016 - 09.2016</i> </td>
+        <td>
+            <b>Teaching Assisant @ "Introduction to Communication Science"</b>
+            <br/>
+            <i  class="job_description">leading my own tutorial, grading of term papers and exam</i>
+           <!--  <ul>
+            <li>leading of a 90-min tutorial for first-year students</li>
+            <li>(independent) grading of student's papers</li>
+            <li>help in grading the final exam</li>
+            <li>admin work</li>
+            </ul> -->
+        </td>
+    </tr>                    
+</table>
+
+
 <h4>Education</h4>
 
 <table id="resume">
     <tr>
-        <td class="year"><i>10.2018 - Winter 2021</i></td>  
+        <td class="year"><i>10.2018 - 03.2022</i></td>  
         <td>Westfälische Wilhelms-Universität Münster<br>
-        <b>Master of Arts: Communication Science</b></td>
+        <b>Master of Arts (1,1): Communication Science</b><br/>
+        Thesis (1,0): "What a turtle knows: An Agent-Based Model of the Knowledge Gap Hypothesis"<br></td>
     </tr>
     <tr>
         <td class="year"><i>03.2020 - 03.2021</i></td>  
@@ -27,88 +73,47 @@ permalink: /resume/
         <td>
             Westfälische Wilhelms-Universität Münster<br>
             <b>Bachelor of Arts (1,4): Communication Science und Sociology</b><br>
-            <i>including one semester of Computer Science</i> <br>
             Thesis (1,0): "Challenges to the validity of Big-Data-research: development and application of criteria"<br>
         </td>
     </tr>       
 </table>
 
-<h4>Work Experience</h4>
 
-<table id="resume">
-    <tr>
-        <td class="year"><i>02.2019 - 09.2021</i></td>   
-        <td><b>Graduate Student Asissant at <a href="https://www.ercis.org/">ERCIS Institute</a></b>
-            <ul>
-                <li>coding and analysis of qualitative interviews</li>
-                <li>literature research</li>
-                <li>customer service at two conferences</li>
-            </ul>
-        </td>
-    </tr>
-    <tr>
-        <td class="year"><i>04.2018 - 06.2018</i> </td>
-        <td>
-            <b>Internship with the <a href="https://www.rheingold-marktforschung.de/">rheingold</a> Institut Köln</b>
-            <ul>
-            <li>trend analysis on Social Media </li>
-            <li>moderating of an online community</li>
-            <li>qualitative interviews with users</li>
-            <li>work on presentations for clients</li>
-            </ul>
-        </td>
-    </tr>
-    <tr>
-        <td class="year"><i>08.2016 - 03.2018</i> </td>
-        <td>
-            <b>Student Assistant in the <a href="http://www.propstop.de/">„PropStop“</a> research project</b>
-            <ul>
-            <li>programming Python scripts and data processing</li>
-            <li>coding for content analyses</li>
-            <li>recruiting of interview participants</li>
-            <li>writing of blog posts</li>
-            <li>literature research</li>
-            </ul>
-        </td>
-    </tr> 
-    <tr>
-        <td class="year"><i>04.2016 - 09.2016</i> </td>
-        <td>
-            <b>Teaching Assisant for an introductory lecture in Comm Sci</b>
-            <ul>
-            <li>leading of a 90-min tutorial for first-year students</li>
-            <li>(independent) grading of student's papers</li>
-            <li>help in grading the final exam</li>
-            <li>admin work</li>
-            </ul>
-        </td>
-    </tr>                    
-</table>
+<!-- <h4>Work</h4>
+Arnold, C., Langmann, K. & Stecker, M. (2022) <i>Issue-specific dynamics of social media hypes - Investigating the influence of Tweets’ topics on user participation and the issue dynamics of bursting online discussions on Twitter</i>, to be presented at at the 9th conference of the European Communication Research Association (ECREA 2022), Aarhus, Denmark, 19 - 22.10.2022.-->
 
-<h4>Projects</h4>
-
-<table id="resume">
+<!--<table id="resume">
     <tr>
         <td class="year"><i>Master Thesis</i></td>   
         <td>
         <i>"What a turtle knows: An Agent-Based Model of the Knowledge Gap Hypothesis"</i><br>
-        I am developing the first ABM to test theoretical assumptions and logics of the knowledge gap hypthesis, using NetLogo. It incorporates exponential random graph models to simulate
-        realistic social networks, using data from the General Social Survey.
-        The project will follow Open Science principles and will be open-sourced after my thesis is completed.<br>
+        I developed an ABM to test theoretical assumptions and logics of the knowledge gap hypthesis, using the NetLogo platform. It incorporates exponential random graph models to simulate realistic social networks, using data from the General Social Survey. The project will follow Open Science principles and will be open-sourced after my thesis is completed.<br>
+        </td>
+    </tr>
+</table> -->
+
+<h4>Work</h4>
+
+<table id="resume">
+    <tr>
+        <td class="year">
+            <i>Conference <br/> Presentations</i
+        ></td>
+        <td style="text-align: justify; padding-right: 3em">
+            Arnold, C., Langmann, K. & Stecker, M. (2022) <i>Issue-specific dynamics of social media hypes - Investigating the influence of Tweets’ topics on user participation and the issue dynamics of bursting online discussions on Twitter</i>, to be presented at at the 9th conference of the European Communication Research Association (ECREA 2022), Aarhus, Denmark, 19 - 22.10.2022.
         </td>
     </tr>
     <tr>
-        <td class="year"><i>Bachelor Thesis</i></td>   
+        <td class="year"><i>Master Thesis</i></td>   
         <td>
-        <i>"Links, likes and lurkers: challenges to the validity of Big-Data-Research"</i><br>
-        I developed a framework of criteria to assess the validity of Big Data Research which I subsequently applied to current studies in the Journal of Communication.<br>
-        Grade: 1.0 (A)
+        <i>"What a turtle knows: An Agent-Based Model of the Knowledge Gap Hypothesis"</i><br>
+        I developed an ABM to test theoretical assumptions and logics of the knowledge gap hypthesis, using the NetLogo platform. It incorporates exponential random graph models to simulate realistic social networks, using data from the General Social Survey. The project will follow Open Science principles and will be open-sourced after my thesis is completed.<br>
         </td>
     </tr>
     <tr>
-        <td class="year"><i>Various</i></td>
+        <td class="year"></td>   
         <td>
-            Various term papers and student research projects on sexism in political campagins, ecological Marxism, activism and it's publics and epistemic racism. Analysis of opera, Reddit, jazz, Twitter and Sci-Fi.
+            <i>various term papers and student research projects on sexism in political campagins, ecological Marxism, activism and it's publics and epistemic racism. Analysis of opera, Reddit, jazz, Twitter and Sci-Fi.</i>
         </td>
     </tr>                   
 </table>

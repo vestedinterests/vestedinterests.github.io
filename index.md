@@ -6,10 +6,10 @@ layout: home
 ---
 <img src="assets/images/homepage.jpeg" alt="Picture of Marvin Stecker" align="left" width="60%" min-width="500px" style="padding: 0% 4% 2% 0%; min-width: "/>  
 Hi! I am Marvin Stecker.   
-I am currently completing my Master's in Communication Science at the WWU University in Münster.  
-<div style="padding-top: 1%"></div>
-I am interested in digital media and culture, politics and social inequalities, mental health and innovative methods. I draw on quantitative and qualitative research methods, but mostly work with computational approaches.
-<div style="padding-top: 5%"></div>
+I am pre-doctoral researcher at the <a href="https://compcommlab.univie.ac.at/">Computational Communication Science Lab</a> at the University of Vienna, working in the <a href="https://opted.eu/">OPTED</a> project on infrastructures for political text analysis. 
+<div style="padding-top: 0.2%"></div>
+I am interested in digital media and culture, politics and social inequalities and funky methods. I draw on quantitative and qualitative research methods, but mostly love everything computational.
+<div style="padding-top: 0.4%"></div>
 <a href="about">About</a> tells you more about, surprisingly, me.   
 <!--<a href="comp">Comp. Tools</a> is a (very brief so far) overview of tools I developed for my analysis purposes.  -->
-<a href="resume">Resume</a> <del>contains my secret pizza recipe</del> is for the headhunters.
+<a href="resume">Resume</a> <del>contains my secret pizza recipe</del> is the same but for lovers of bulletpoints.

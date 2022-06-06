@@ -18,10 +18,10 @@ email: marvin.stecker [at] univie [dot] ac.at
 description: >- # this means to ignore newlines until "baseurl:"
   Homepage of Marvin Stecker: computational social science and GIFs. 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.marvinstecker.com/"  # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: marvinstecker
 github_username:  vestedinterests
-google_analytics: G-B98JS70YWW
+#google_analytics: G-B98JS70YWW
 
 # Build settings
 markdown: kramdown

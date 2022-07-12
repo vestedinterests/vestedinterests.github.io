@@ -100,20 +100,20 @@ Arnold, C., Langmann, K. & Stecker, M. (2022) <i>Issue-specific dynamics of soci
             <i>Conference <br/> Presentations</i
         ></td>
         <td style="text-align: justify; padding-right: 3em">
-            Arnold, C., Langmann, K. & Stecker, M. (2022) <i>Issue-specific dynamics of social media hypes - Investigating the influence of Tweets’ topics on user participation and the issue dynamics of bursting online discussions on Twitter</i>, to be presented at at the 9th conference of the European Communication Research Association (ECREA 2022), Aarhus, Denmark, 19 - 22.10.2022.
+            Arnold, C., Langmann, K. & <b>Stecker, M.</b>, & Waldherr, A. (2022) <i>Issue-specific dynamics of social media hypes - Investigating the influence of Tweets’ topics on user participation and the issue dynamics of bursting online discussions on Twitter</i>, to be presented at at the 9th conference of the European Communication Research Association (ECREA 2022), Aarhus, Denmark, 19 - 22.10.2022.
         </td>
     </tr>
-    <tr>
+    <!---<tr>
         <td class="year"><i>Master Thesis</i></td>   
         <td>
         <i>"What a turtle knows: An Agent-Based Model of the Knowledge Gap Hypothesis"</i><br>
-        I developed an ABM to test theoretical assumptions and logics of the knowledge gap hypthesis, using the NetLogo platform. It incorporates exponential random graph models to simulate realistic social networks, using data from the General Social Survey. The project will follow Open Science principles and will be open-sourced after my thesis is completed.<br>
+        I developed an ABM to test theoretical assumptions and logics of the knowledge gap hypthesis, using the NetLogo platform. It incorporates exponential random graph models to simulate realistic social networks, using data from the General Social Survey. I am currently refining the whole thing and want to Open-Source after it passes the "emberassing code" stage.<br>
         </td>
-    </tr>
+    </tr>-->
     <tr>
         <td class="year"></td>   
         <td>
-            <i>various term papers and student research projects on sexism in political campagins, ecological Marxism, activism and it's publics and epistemic racism. Analysis of opera, Reddit, jazz, Twitter and Sci-Fi.</i>
+            <i>various term papers on sexism in political campagins, ecological Marxism, activism and it's publics and epistemic racism, applied to opera, Reddit, jazz, Twitter and Sci-Fi.</i>
         </td>
     </tr>                   
 </table>
@@ -130,21 +130,14 @@ Arnold, C., Langmann, K. & Stecker, M. (2022) <i>Issue-specific dynamics of soci
     <tr>
         <td class="year"><i>Software</i> </td>
         <td>
-            longtime user of Windows and macOS<br>
-            good proficiency in Microsoft Office<br>
-            good knowledge of SPSS<br>
-            very comfortable with R<br>
-            working knowledge of MAXQDA<br>
-            good knowledge of LATEX<br>
-            working knowledge of object-oriented programming and not-scared of Python,  terminals or hosting my website on GitHub<br>
+         Lots of R, good deal of NetLogo, bits of Python, all texts in LATEX. Anything else as needed. Random smidgen of programming background.
         </td>
     </tr> 
     <tr>
         <td class="year"><i>Methods</i> </td>
         <td><i>Data acquisition:</i>
             <ul>
-            <li>Conception of quantitative and qualitative studies </li>
-            <li>qualitative interviews</li>
+            <li>Qualitative interviews</li>
             <li>Web scraping and APIs</li>
             </ul>
             <i>Analysis</i>
@@ -154,7 +147,6 @@ Arnold, C., Langmann, K. & Stecker, M. (2022) <i>Issue-specific dynamics of soci
             <li>text mining</li>
             <li>ego-network modelling</li>
             <li>Grounded Theory approaches</li>
-            <li>interested in humanities approaches</li>
             </ul>
             <i>Simulation</i>
             <ul>

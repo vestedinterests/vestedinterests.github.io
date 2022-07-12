@@ -10,6 +10,4 @@ I am pre-doctoral researcher at the <a href="https://compcommlab.univie.ac.at/">
 <div style="padding-top: 0.2%"></div>
 I am interested in digital media and culture, politics and social inequalities and funky methods. I draw on quantitative and qualitative research methods, but mostly love everything computational.
 <div style="padding-top: 0.4%"></div>
-<a href="about">About</a> tells you more about, surprisingly, me.   
-<!--<a href="comp">Comp. Tools</a> is a (very brief so far) overview of tools I developed for my analysis purposes.  -->
-<a href="resume">Resume</a> <del>contains my secret pizza recipe</del> is the same but for lovers of bulletpoints.
+Find out more about me in <a href="about">text</a> or <a href="resume">list</a> form, depending on your love of bullet points.

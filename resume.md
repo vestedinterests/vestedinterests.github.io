@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Resume
-permalink: /resume/
+title: CV
+permalink: /cv/
 ---
 
 <h4>Employment</h4>
@@ -56,7 +56,8 @@ permalink: /resume/
         <td class="year"><i>10.2018 - 03.2022</i></td>  
         <td>Westfälische Wilhelms-Universität Münster<br>
         <b>Master of Arts (1,1): Communication Science</b><br/>
-        Thesis (1,0): "What a turtle knows: An Agent-Based Model of the Knowledge Gap Hypothesis"<br></td>
+        Thesis (1,0): "What a turtle knows: An Agent-Based Model of the Knowledge Gap Hypothesis"<br><br>
+        <b>Paul-Lazarsfeld-Stipend 2022</b> of the Methods-Section of the German Communication Association (DGPUK-Methoden)</td>
     </tr>
     <tr>
         <td class="year"><i>03.2020 - 03.2021</i></td>  
@@ -78,29 +79,20 @@ permalink: /resume/
     </tr>       
 </table>
 
-
-<!-- <h4>Work</h4>
-Arnold, C., Langmann, K. & Stecker, M. (2022) <i>Issue-specific dynamics of social media hypes - Investigating the influence of Tweets’ topics on user participation and the issue dynamics of bursting online discussions on Twitter</i>, to be presented at at the 9th conference of the European Communication Research Association (ECREA 2022), Aarhus, Denmark, 19 - 22.10.2022.-->
-
-<!--<table id="resume">
-    <tr>
-        <td class="year"><i>Master Thesis</i></td>   
-        <td>
-        <i>"What a turtle knows: An Agent-Based Model of the Knowledge Gap Hypothesis"</i><br>
-        I developed an ABM to test theoretical assumptions and logics of the knowledge gap hypthesis, using the NetLogo platform. It incorporates exponential random graph models to simulate realistic social networks, using data from the General Social Survey. The project will follow Open Science principles and will be open-sourced after my thesis is completed.<br>
-        </td>
-    </tr>
-</table> -->
-
 <h4>Work</h4>
 
 <table id="resume">
     <tr>
         <td class="year">
-            <i>Conference <br/> Presentations</i
-        ></td>
+            <i>Conference <br/> Presentations</i></td>
         <td style="text-align: justify; padding-right: 3em">
-            Arnold, C., Langmann, K. & <b>Stecker, M.</b>, & Waldherr, A. (2022) <i>Issue-specific dynamics of social media hypes - Investigating the influence of Tweets’ topics on user participation and the issue dynamics of bursting online discussions on Twitter</i>, to be presented at at the 9th conference of the European Communication Research Association (ECREA 2022), Aarhus, Denmark, 19 - 22.10.2022.
+            <b>Stecker, M.</b> <i>Word embeddings are to dictionaries like 'seems great' to 'have you tried that?' - Using document similarity to automate frame identification</i><br/> Poster presented at at the annual conference of the Methods Section of the German Communication Science Association (DGPUK-Methoden), Munich, Germany, 05. - 07.10.2022.
+        </td>
+    </tr>
+    <tr>
+        <td class="year"></td>  
+        <td style="text-align: justify; padding-right: 3em">
+            Arnold, C., Langmann, K. & <b>Stecker, M.</b>, & Waldherr, A. (2022) <i>Issue-specific dynamics of social media hypes - Investigating the influence of Tweets’ topics on user participation and the issue dynamics of bursting online discussions on Twitter</i><br/> presented at at the 9th conference of the European Communication Research Association (ECREA 2022), Aarhus, Denmark, 19 - 22.10.2022.
         </td>
     </tr>
     <!---<tr>
@@ -110,12 +102,12 @@ Arnold, C., Langmann, K. & Stecker, M. (2022) <i>Issue-specific dynamics of soci
         I developed an ABM to test theoretical assumptions and logics of the knowledge gap hypthesis, using the NetLogo platform. It incorporates exponential random graph models to simulate realistic social networks, using data from the General Social Survey. I am currently refining the whole thing and want to Open-Source after it passes the "emberassing code" stage.<br>
         </td>
     </tr>-->
-    <tr>
+   <!--- <tr>
         <td class="year"></td>   
         <td>
             <i>various term papers on sexism in political campagins, ecological Marxism, activism and it's publics and epistemic racism, applied to opera, Reddit, jazz, Twitter and Sci-Fi.</i>
         </td>
-    </tr>                   
+    </tr>         -->    
 </table>
 
 <h4>Skills</h4>
@@ -130,7 +122,7 @@ Arnold, C., Langmann, K. & Stecker, M. (2022) <i>Issue-specific dynamics of soci
     <tr>
         <td class="year"><i>Software</i> </td>
         <td>
-         Lots of R, good deal of NetLogo, bits of Python, all texts in LATEX. Anything else as needed. Random smidgen of programming background.
+         Lots of R, good deal of NetLogo and Python, all texts in LATEX. Anything else as needed. Random smidgen of programming background.
         </td>
     </tr> 
     <tr>

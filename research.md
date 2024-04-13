@@ -5,9 +5,8 @@ permalink: /research/
 ---
 
 #### Work in Progress
-+ **Finding Social Groups in Political Texts** _with Fabienne Lind & Hajo G. Boomgaarden_
 
-+ **Computational Tools Reported in Social Science Journals** _with Paul Balluff, Fabienne Lind, Celina Dinhopl_
++ **Paper under Review**
 
 + **Comparing Automated Text Measurements of Morality** _with Freddy Hopp_
 

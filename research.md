@@ -8,7 +8,7 @@ permalink: /research/
 
 + **Paper under Review**
 
-+ **Can identity appeals in party communication or news media influence voter perceptions?** with _Fabienne Lind, Hajo G. Boomgaarden & Markus Wagner_
++ **Identity Effects: The Influence of Party Messages and News Reporting on Party-Group Linkages** with _Fabienne Lind, Hajo G. Boomgaarden & Markus Wagner_
 
 + **Comparing Automated Text Measurements of Morality** _with Freddy Hopp_
 

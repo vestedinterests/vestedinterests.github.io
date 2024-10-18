@@ -6,7 +6,7 @@ permalink: /research/
 
 #### Publications
 
-Stecker, Marvin, & Lind, Fabienne. (2025), Knowledge Gap. In Nai, A., Grömping, M., & Wirz, D. (Eds). Elgar Encyclopedia of Political Communication. Edward Elgar Publishing.
+Stecker, Marvin, & Lind, Fabienne. (2025), Knowledge Gap. In Nai, A., Grömping, M., & Wirz, D. (Eds). *Elgar Encyclopedia of Political Communication*. Edward Elgar Publishing. [Pre-Print](https://www.researchgate.net/publication/383742116_Knowledge_Gap)
 
 #### Work in Progress
 

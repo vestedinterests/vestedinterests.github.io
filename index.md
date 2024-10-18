@@ -4,7 +4,7 @@
 
 layout: home
 ---
-<img src="assets/images/homepage.jpeg" alt="Picture of Marvin Stecker" align="left" width="60%" min-width="500px" style="padding: 0% 4% 2% 0%; min-width: "/>  
+<img src="assets/images/homepage2.jpg" alt="Picture of Marvin Stecker" align="left" width="50%" min-width="500px" style="margin: 0% 4% 2% 0%; border-radius: 6px "/>  
 Hi! I am Marvin Stecker.   
 I am a PhD student at the <a href="https://compcommlab.univie.ac.at/">Computational Communication Science Lab</a> at the University of Vienna. I am part of the <a href="https://authlib.eu/">AUTHLIB</a> project on illiberal challenges to democracy, and previously worked in the <a href="https://opted.eu/">OPTED</a> project on infrastructures for political text analysis. 
 <div style="padding-top: 0.2%"></div>
